@@ -16,13 +16,13 @@ public class DemoController {
     //@RequestMapping(value = "/demo" , method = RequestMethod.GET)
     @GetMapping(value = "/demo")
     public ModelAndView demo(ModelAndView mv, String id){
-        log.info("?????????????????????123");
+        log.info("?????????????????????1234");
 
         String name = "";
         if(id.equals("liu")){
-            name = "김연우";
+            name = "이재성";
         }else if(id.equals("2")){
-            name = "뽀삐";
+            name = "콩이";
         }else{
             name = "밍키";
         }
