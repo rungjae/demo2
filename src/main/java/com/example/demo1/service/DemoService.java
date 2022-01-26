@@ -11,18 +11,6 @@ import org.springframework.stereotype.Service;
 
 import java.sql.Connection;
 
-/**
- * packageName : com.example.demo.service
- * fileName : DemoService
- * author : isbn8
- * date : 2022-01-26
- * description :
- * ===========================================================
- * DATE                  AUTHOR                  NOTE
- * -----------------------------------------------------------
- * 2022-01-26              isbn8             최초 생성
- */
-
 @Service
 @Slf4j
 @RequiredArgsConstructor

@@ -11,5 +11,4 @@ public class UserDto {
     private int login_count;
     private LocalDateTime last_login_at;
     private LocalDateTime create_at;
-
 }
